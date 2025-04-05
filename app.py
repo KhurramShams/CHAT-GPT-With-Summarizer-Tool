@@ -119,3 +119,6 @@ with input_container:
                             message(st.session_state['messages'][i], is_user=True, key=str(i) + '_user')
                         else:
                             message(st.session_state['messages'][i], key=str(i) + '_AI')
+                            
+    
+st.sidebar.text("Develop with ❤ By Shams")
