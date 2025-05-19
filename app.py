@@ -121,4 +121,4 @@ with input_container:
                             message(st.session_state['messages'][i], key=str(i) + '_AI')
                             
     
-st.sidebar.text("Develop with ❤ By Shams")
+# st.sidebar.text("Develop with ❤ By Shams")
